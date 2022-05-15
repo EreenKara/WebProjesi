@@ -1,0 +1,67 @@
+.containerr{
+    background-image: url(../images/6.jpg);
+}
+.navbar{
+    background-color: rgba(82, 109, 139, 1);
+
+}
+.Hakkimda{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.Ozgecmis h5{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial Black, Gadget, sans-serif;
+}
+.Ozgecmis p{
+    margin-left: 3%;
+    margin-right: 4%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.navbar-nav .active{
+    background-color: rgba(255, 110, 0,0.7);
+    border-radius:10px;
+}
+.Hakkimda .CV h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial Black, Gadget, sans-serif;
+    
+}
+.Hakkimda .CV .row .col-lg-4 p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+.badge{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.CV .row .col-lg-4 img{
+
+    width: 100%;
+    padding:5px;
+}
+.row{
+    margin: 0px;
+}
+.CV .okullar{
+    text-align: center;
+}
+.CV .okullar p{
+    margin: 2px;
+}
+.CV .okullar img{
+    border-radius: 15px;
+}
+.CV .okul1 img{
+    height: 340px;
+}
+.CV .okul3 img{
+    height: 340px;
+}

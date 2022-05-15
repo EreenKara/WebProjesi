@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eren Kara'nın Sitesi</title>
+    <link rel="icon" href="images/Logo.png" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" href="css/style_iletisim.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script src="js/javascript.js"></script>
+
+</head>
+
+<body>
+    <div class="containerr">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><b>Eren Kara</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CV.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sehrim.html">Şehrim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Mirasimiz.html">Mirasımız</a>
+                        </li>
+                        <li class="nav-item bosluk">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="iletisim.html">İletişim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="formm">
+            <form class="row g-3" action="iletisim_after.php" id="form1" method="post">
+
+                <div class="col-6">
+                    <label for="isim" class="form-label">İsim</label>
+                    <input type="text" id="isim" name="isim" class="form-control" placeholder="İsminiz" aria-label="First name">
+                </div>
+                <div class="col-6">
+                    <label for="soyisim" class="form-label">Soyisim</label>
+                    <input type="text" id="soyisim" name="soyisim" class="form-control" placeholder="Soyisminiz"
+                        aria-label="Last name">
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label">İl</label>
+                    <select id="inputState" id="il" name="il" class="form-select">
+                        <option selected>İstanbul</option>
+                        <option>Sakarya</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">İlçe</label>
+                    <select id="inputState" id="ilce" name="ilce" class="form-select">
+                        <option selected>Büyükçekmece</option>
+                        <option>Serdivan</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="yas" class="form-label">Yaş</label>
+                    <input type="text" id="yas" name="yas" class="form-control" placeholder="Yaşınız" aria-label="yass">
+                </div>
+
+
+
+                <div class="form-floating col-md-12">
+
+                    <textarea class="form-control" placeholder="Leave a comment here" name="textarea" id="floatingTextarea"
+                        style="height:200px"></textarea>
+                    <label for="floatingTextarea">Ne için iletişim kurmak istiyorsunuz?</label>
+                </div>
+                <div class="radio">
+                    <fieldset class="row mb-3">
+                        <legend class="col-form-label col-sm-2 pt-0">Cinsiyet</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="Erkek" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Erkek
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="Kadın">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Kadın
+                                </label>
+                            </div>
+
+                        </div>
+
+
+                    </fieldset>
+
+                </div>
+
+
+                <!-- <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input"  type="checkbox" id="gridCheck" id="checkbox1"  >
+                        <label class="form-check-label" for="gridCheck">
+                            Göndermeyi Onaylıyorum
+                        </label>
+                    </div>
+                </div>
+                -->
+                <div class="col-6">
+                    <button type="button" class="btn btn-danger" formmethod="post" onclick="Temizle()">Formu
+                        Temizle</button>
+                </div>
+                <div class="col-6">
+                    <button type="submit" class="btn btn-success" formmethod="post"
+                        onclick=" return control()">Gönder</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white p-3 text-center mt-0">
+        @powered by Eren
+    </footer>
+</body>
+
+</html>

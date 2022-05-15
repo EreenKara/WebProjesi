@@ -1,0 +1,24 @@
+.navbar-nav .active{
+    background-color: rgba(255, 110, 0,0.7);
+    border-radius:10px;
+}
+.containerr{
+    background-image: url(../images/login.jpg);
+    height: 1000px;
+}
+.navbar{
+    background-color: rgba(38, 94, 158, 0.1);
+}
+.loginn{
+    background-color: rgba(60, 92, 122, 0.6);
+    padding: 1%;
+    margin: auto;
+    margin-top: 12%;
+    width: 25%;
+    border-radius: 9%;
+    
+}
+.yazzi{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+}

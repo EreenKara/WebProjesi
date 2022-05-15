@@ -1,0 +1,115 @@
+.slider{
+    
+    margin: auto;
+    margin-top: 4%;
+    padding: 0px;
+    width: 50%;
+    
+    height: 100%;
+    margin-bottom: 4%;
+}
+.row{
+    width: 100%;
+}
+
+.slider img{
+    border-radius: 20%;
+    
+    max-height: 600px;
+}
+
+.containerr{
+    background: url(../images/10.jpg);
+    background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.col-lg-12{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar-nav .active{
+    background-color: rgba(255, 110, 0,0.7);
+    border-radius:10px;
+}
+.row{
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+    
+}
+.diogenes{
+    background-image: url(../images/antik-yunan-kitap-2-scaled.jpg);
+}
+.diogenes .col-md-4{
+    margin-bottom: 20%;
+}
+.col-md-4{
+    margin-bottom: 5%;
+}
+
+.col-md-4, .col-md-8{
+    margin-top: 3%;
+}
+.row img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 5%;
+    
+    
+}
+.row p{
+    margin: 0px;
+    padding: 0px;
+    width: 99%;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    margin-right: 4%;
+    font-size: 20px;
+   
+}
+.kultur{
+    
+    background-image: url(../images/kultur.jpg);
+}
+.kultur img{
+    margin-top: 10%;
+}
+.kultur h4{
+    color: white;
+}
+.kultur p{
+    font-size: 17px;
+    color: white;
+}
+h4{
+    font-size: 40px;
+    font-family: Arial Black, Gadget, sans-serif;
+    text-align: center;
+    
+}
+.doga{
+    background-image: url(../images/doga2.jpg);
+    
+}
+.doga .img2{
+    margin-top: 4%;
+}
+.doga p, .doga h4{
+    color: white;
+}
+
+.yemekler{
+    background-image: url(../images/sofra2.jpg);
+    background-size: 100%;
+}
+.yazii{
+    color: white;
+    
+    border-radius: 20%;
+}

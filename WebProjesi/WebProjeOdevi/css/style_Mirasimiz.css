@@ -1,0 +1,60 @@
+.container{
+    
+    margin-top: 1%;
+}
+.containerr{
+    background-image: url(../images/darkred.jpg);
+    background-size: 100% 100%;
+    max-width: 100%;
+    width: 1920px;
+    
+}
+.container-fluid .navbar-brand:hover{
+    color:#beafaf;
+    
+    border-radius:10px;
+}
+.container .row{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+    max-width: 100%;
+
+}
+.row .col-12{
+    margin-bottom: 2%;
+}
+.row .col-12 .card{
+    border-radius: 5%;
+    padding:3px;
+}
+.row .col-12 .card img{
+    border-radius: 5%;
+}
+.navbar-nav .active{
+    background-color: rgba(255, 110, 0,0.7);
+    border-radius:10px;
+}
+.card h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial Black, Gadget, sans-serif;
+    color: white;
+}
+.card p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+}
+.kart4 img{
+    height: 460px;
+}
+.card{
+    background-color: #857972;
+    height: 630px;
+}
+
+
+.kart4, .kart3{
+    height: 700px;
+}

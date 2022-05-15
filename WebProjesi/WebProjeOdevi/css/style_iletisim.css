@@ -1,0 +1,22 @@
+.containerr{
+    background-image: url(../images/84248.png);
+    height: 950px;
+}
+.navbar-nav .active{
+    background-color: rgba(255, 110, 0,0.7);
+    border-radius:10px;
+}
+
+.formm{
+    
+    padding: 1%;
+    border-radius: 1%;
+    background-color: rgba(214, 149, 149,0.8);
+    width: 45%;
+    margin: auto;
+    margin-top:3% ;
+    
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+

@@ -1,0 +1,53 @@
+.slider{
+    padding: 50px;
+    margin-top: 5%;
+    min-width: 100%;
+}
+.carousel-item img{
+    margin: auto;
+    height: 100%;
+}
+#carouselExampleIndicators{
+    width: 70%;
+    
+    margin: auto;
+    padding: 40px;
+    
+}
+.carousel-inner{
+    width: 50%;
+    
+    margin: auto;
+}
+
+
+.col-sm-4{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+<div class="col-12 col-md-6 col-lg-4">
+                    <div class="card kart5">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sinop Cezaevi</h5>
+
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card kart6">
+                        <img src="images/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
+                        </div>
+                    </div>
