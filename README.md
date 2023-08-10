@@ -5,4 +5,4 @@ Web bilgilerim dahilinde bir site tasarlanmıştır.
 [What We Were Asked For](<./WebProjesi/istenilen.pdf>)
 
 # My Report That I Prepared About Assignment
-[My Report About Assignment]()
+[My Report About Assignment](<./WebProjesi/WebProjesiRaporPDF.pdf>)
